@@ -1322,20 +1322,20 @@
     json-stable-stringify "^1.0.1"
     lru-cache "^5.1.1"
 
-"@vimesh/discovery@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.npmjs.org/@vimesh/discovery/-/discovery-0.10.2.tgz#0410b5a542162d4ef44745aa255c2eff126f7d21"
-  integrity sha512-hd1Ts8izMMWHZHzNOWumW2AdE9eUSNXhfl7Epgvh5aDM4xJK59WJO/tKsLsv74xzTYPYKKyEmvWiECaZbbBE+Q==
+"@vimesh/discovery@^0.10.4":
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@vimesh/discovery/-/discovery-0.10.4.tgz#8a6fe2ef9a7a5ff63247f7b1ca6a88ecb238cf38"
+  integrity sha512-0Tj8yxWy8NFsmfaRe02GXwc09Z7uvtZpeAIrVOdelE+ht6SulrB6jWy4BOTQ6L+qxQu9fvNTzn6Lb5ah1kvTHQ==
   dependencies:
-    "@vimesh/grpc" "^0.10.1"
+    "@vimesh/grpc" "^0.10.4"
     "@vimesh/logger" "^0.10.1"
     "@vimesh/utils" "^0.10.2"
     lodash "^4.17.15"
 
-"@vimesh/graphql@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.npmjs.org/@vimesh/graphql/-/graphql-0.10.2.tgz#f132ccfb917a42c9b30bab4c0db6e7c8b848fa12"
-  integrity sha512-JfwMbRxWjNcQnRxCEewa0IbEPSxCeR6CnKEXjryll0FwOpRDa4tzs+FIccEyJVVvUNc//G9OywMHF8+WXxFB0g==
+"@vimesh/graphql@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@vimesh/graphql/-/graphql-0.10.3.tgz#8f9f6c820e0274198c7b37c9eae51aaa216dbf6f"
+  integrity sha512-0sYkI41NSTfsikC5Z1/Y1aOA7iVzM0737xJvE/ehQ0vSRFcjnrnd1DceIy7G9LFKJTR8bOR1H/kSRcFMp2+tUw==
   dependencies:
     "@apollo/federation" "^0.14.1"
     "@apollo/gateway" "^0.14.1"
@@ -1349,16 +1349,16 @@
     bufferutil "^4.0.1"
     cross-fetch "^3.0.5"
     glob "^7.1.6"
-    graphql "^15.1.0"
+    graphql "^14.2.1"
     graphql-iso-date "^3.6.1"
     graphql-type-json "^0.3.2"
     lodash "^4.17.15"
     utf-8-validate "^5.0.2"
 
-"@vimesh/grpc@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.npmjs.org/@vimesh/grpc/-/grpc-0.10.1.tgz#88c2af48fcea40348dabf9723788e3bf98ab322c"
-  integrity sha512-ZYzSKgvFCgLXmqvv/2NkC7xFjNNoCBsPB3U+D2EiPYzHy8sezd9CRsPNnjLly75M2K+Vi+KAlwmPwqFslFDA4Q==
+"@vimesh/grpc@^0.10.4":
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@vimesh/grpc/-/grpc-0.10.4.tgz#fef4a541f80d19a027bf571abe5b40588ba44a5e"
+  integrity sha512-nc4evott+ylvLf7dMQF2Zx2kN0EnQGpe/nLzUJ72LDCZ6TxPvkdnnHjHjvmG8UF65it2WEduDFix1W2teR+FXw==
   dependencies:
     "@grpc/grpc-js" "^1.1.1"
     "@grpc/proto-loader" "^0.5.4"
@@ -1376,8 +1376,10 @@
     winston-daily-rotate-file "^4.5.0"
     winston-mongodb "^5.0.1"
 
-"@vimesh/portlet@file:../../..":
-  version "0.10.2"
+"@vimesh/portlet@latest":
+  version "0.10.15"
+  resolved "https://registry.yarnpkg.com/@vimesh/portlet/-/portlet-0.10.15.tgz#5c4fbd9936ef8f7de84efed9548b37c5e5d4d290"
+  integrity sha512-Di1IfSyjjZdoTxUDbttY5llHD2dP6oxKhJbwOwq9kp0e5zBQf2kI+yTNTVNZz2ioTdXg9Lqu4Bt1RcWrWrBL3Q==
   dependencies:
     "@babel/core" "^7.10.3"
     "@babel/preset-env" "^7.10.3"
@@ -1389,9 +1391,9 @@
     "@rollup/plugin-commonjs" "^11.0.1"
     "@rollup/plugin-node-resolve" "^7.0.0"
     "@vimesh/cache" "^0.10.2"
-    "@vimesh/discovery" "^0.10.2"
-    "@vimesh/graphql" "^0.10.2"
-    "@vimesh/grpc" "^0.10.1"
+    "@vimesh/discovery" "^0.10.4"
+    "@vimesh/graphql" "^0.10.3"
+    "@vimesh/grpc" "^0.10.4"
     "@vimesh/logger" "^0.10.1"
     "@vimesh/storage" "^0.10.2"
     "@vimesh/utils" "^0.10.2"
@@ -1413,6 +1415,7 @@
     lodash "^4.17.15"
     morgan "^1.10.0"
     rollup "^2.18.1"
+    rollup-plugin-includepaths "^0.2.4"
     rollup-plugin-terser "^6.1.0"
     rollup-plugin-vue "^5.1.6"
     vue-template-compiler "^2.6.11"
@@ -3511,17 +3514,19 @@ graphql-upload@^8.0.2:
     http-errors "^1.7.3"
     object-path "^0.11.4"
 
+graphql@^14.2.1:
+  version "14.7.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.7.0.tgz#7fa79a80a69be4a31c27dda824dc04dac2035a72"
+  integrity sha512-l0xWZpoPKpppFzMfvVyFmp9vLN7w/ZZJPefUicMCepfJeQ8sMcztloGYY9DfjVPo6tIUDzU5Hw3MUbIjj9AVVA==
+  dependencies:
+    iterall "^1.2.2"
+
 graphql@^14.5.3:
   version "14.6.0"
   resolved "https://registry.npmjs.org/graphql/-/graphql-14.6.0.tgz#57822297111e874ea12f5cd4419616930cd83e49"
   integrity sha512-VKzfvHEKybTKjQVpTFrA5yUq2S9ihcZvfJAtsDBBCuV6wauPu1xl/f9ehgVf0FcEJJs4vz6ysb/ZMkGigQZseg==
   dependencies:
     iterall "^1.2.2"
-
-graphql@^15.1.0:
-  version "15.2.0"
-  resolved "https://registry.npmjs.org/graphql/-/graphql-15.2.0.tgz#d9c655a523a3196d4b23657ec6ec5963b3bd4970"
-  integrity sha512-tsceRyHfgzZo+ee0YK3o8f0CR0cXAXxRlxoORWFo/CoM1bVy3UXGWeyzBcf+Y6oqPvO27BDmOEVATcunOO/MrQ==
 
 grpc-boom@^1.0.28:
   version "1.0.28"
@@ -4778,9 +4783,9 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
 object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.npmjs.org/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
-  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
+  integrity sha512-jgSbThcoR/s+XumvGMTMf81QVBmah+/Q7K7YduKeKVWL7N111unR2d6pZZarSk6kY/caeNxUDyxOvMWyzoU2eg==
 
 object.assign@^4.1.0:
   version "4.1.0"
@@ -5533,6 +5538,11 @@ rimraf@^2.5.4, rimraf@^2.7.1:
   integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
   dependencies:
     glob "^7.1.3"
+
+rollup-plugin-includepaths@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-includepaths/-/rollup-plugin-includepaths-0.2.4.tgz#eb21d2d05ad410856a7c2f0612a85983fd11cc62"
+  integrity sha512-iZen+XKVExeCzk7jeSZPJKL7B67slZNr8GXSC5ROBXtDGXDBH8wdjMfdNW5hf9kPt+tHyIvWh3wlE9bPrZL24g==
 
 rollup-plugin-terser@^6.1.0:
   version "6.1.0"
